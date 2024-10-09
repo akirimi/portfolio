@@ -713,8 +713,15 @@ font-size: 28px;
 #about-design p {
     margin-top: 24px;
   }
-
 }
+
+@media screen and (max-width: 430px) {
+
+    .grid-container:nth-child(1) img {
+        width: 90%;
+    }
+ }
+
 
 @media screen and (max-width: 350px) {
     #about-skills p {
